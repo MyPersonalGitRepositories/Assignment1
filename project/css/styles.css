@@ -36,12 +36,20 @@ header{
 }
 .item{
     background: #7d807e;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
     width: 28%;
     float: left;
     border: 1px solid;
 }
 .text{
     padding: 3%;
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .firstTwoItems{
+        width: 44.7%;
+    }
+    .lastItem{
+        width: 93.7%;
+    }
 }
