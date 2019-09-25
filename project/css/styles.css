@@ -1,9 +1,47 @@
 *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
     font-family: "Comic Sans MS";
 }
 header{
+    padding-top: 2%;
     text-align: center;
 }
 .container{
+    padding-left: 3%;
+    padding-top: 4%;
+    display: inline-block;
 
+}
+.chicken{
+    background: #ff7e87;
+}
+.beef{
+    color: #ffffff;
+    background: #ff4941;
+}
+.sushi{
+    background: #ffec8c;
+}
+.item h3{
+    width: 33.33%;
+    float: right;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: 100%;
+}
+.item{
+    background: #7d807e;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 28%;
+    float: left;
+    border: 1px solid;
+}
+.text{
+    padding: 3%;
 }
