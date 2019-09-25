@@ -53,3 +53,9 @@ header{
         width: 93.7%;
     }
 }
+
+@media (max-width: 767px) {
+    .firstTwoItems, .lastItem {
+        width: 93.7%;
+    }
+}
